@@ -1,0 +1,120 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #fff6eb;
+}
+
+.header {
+    background-color: #7e5454c4;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 20px;
+}
+
+
+.section1 {
+    padding-top: 40px;
+    height: 340px;
+    background-color: #b79b9b82;
+}
+
+h2 {
+    padding-left: 85px;
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+    margin-top: 0;
+    font-size: 30px;
+}
+
+.section1 .information {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.section1 .personalinformation {
+    float: left;
+    width: 50%;
+}
+
+.section1 .iamgesection {
+    width: 30%;
+    float: left;
+}
+
+.section1 .information .personalinformation span i {
+    margin-right: 10px;
+}
+
+.section2 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 465px;
+}
+
+.about-me {
+    width: 50%;
+}
+
+
+.section2 ul,
+.section3 ol  {
+    
+    padding-left: 124px;
+}
+
+.section4 span ,.section5 .divsection{
+    padding-left: 75px;
+}
+
+.section1 .information .personalinformation p,
+.section2 ul li,
+.section3 ol li,
+.section4 .links p,
+.section4 .links a  , 
+.section5 .divsection{
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+    line-height: 2;
+    font-size: 18px;
+}
+
+
+
+.section3 {
+    display: flex;
+    background: #b79b9b82;
+    height: 400px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section4 {
+    margin: 0 auto;
+    width: 50%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.section5{
+    display: flex;
+    height: 330px;
+    align-items: center;
+    background-color: #b79b9b82;
+}
+.divsection{
+    display: flex;
+    align-items: center;
+}
+.divsection p {
+    margin-right: 10px;
+}
